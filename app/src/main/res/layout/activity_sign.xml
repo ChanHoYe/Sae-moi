@@ -12,10 +12,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
+            android:layout_alignParentBottom="true"
             android:orientation="vertical"
             android:visibility="gone"
-            tools:visibility="visible">
+            tools:visibility="visible"
+            android:paddingBottom="@dimen/card_padding">
 
             <com.google.android.gms.common.SignInButton
                 android:id="@+id/button_google_signin"

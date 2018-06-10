@@ -4,6 +4,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/pink_background"
         android:orientation="vertical">
 
         <android.support.v7.widget.Toolbar
@@ -14,43 +15,55 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark" />
 
         <LinearLayout
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_margin="@dimen/screen_margin"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/pink_bear" />
 
             <TableLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:stretchColumns="1">
 
-                <TableRow>
+                <TableRow android:layout_marginBottom="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentLeft="true"
+                        android:layout_gravity="center"
+
                         android:text="이름"
-                        android:textSize="16sp" />
+                        android:textSize="20dp" />
 
                     <EditText
                         android:id="@+id/cate_add_name"
-                        android:layout_alignParentRight="true"
                         android:hint="커스텀할 카테고리의 이름을 적어주세요 >_ㅇ"
-                        android:textSize="16sp" />
+                        android:textSize="15sp" />
                 </TableRow>
 
-                <TableRow>
+                <TableRow android:layout_marginBottom="5dp">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
                         android:text="구분"
-                        android:textSize="16sp" />
+                        android:textSize="20sp" />
 
                     <RadioGroup
                         android:id="@+id/cate_add_radio"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:gravity="center"
                         android:orientation="horizontal">
 
                         <RadioButton
@@ -59,6 +72,10 @@
                             android:layout_height="wrap_content"
                             android:checked="true"
                             android:text="수입" />
+
+                        <View
+                            android:layout_width="30dp"
+                            android:layout_height="0dp" />
 
                         <RadioButton
                             android:id="@+id/cate_add_ex"
@@ -74,14 +91,16 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
                         android:text="아이콘"
-                        android:textSize="16sp" />
+                        android:textSize="20sp" />
 
                     <ImageView
                         android:id="@+id/cate_add_image"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/cate_37" />
+                        android:src="@drawable/large_cate_37" />
                 </TableRow>
             </TableLayout>
         </LinearLayout>

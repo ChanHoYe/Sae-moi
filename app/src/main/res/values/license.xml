@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="license_mpandroid">
+        <item><b><i>MPAndroidChart</i></b>&#xA;</item>
+        <item><a href="https://github.com/PhilJay/MPAndroidChart">https://github.com/PhilJay/MPAndroidChart</a>&#xA;</item>
+        <item>Copyright 2018 Philipp Jahoda&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_volley">
+        <item><b><i>Android – platform – frameworks – volley</i></b>&#xA;</item>
+        <item><a href="https://android.googlesource.com/platform/frameworks/volley">https://android.googlesource.com/platform/frameworks/volley</a>&#xA;</item>
+        <item>Copyright 2011 The Android Open Source Project&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_support">
+        <item><b><i>Android – platform – frameworks – support</i></b>&#xA;</item>
+        <item><a href="https://android.googlesource.com/platform/frameworks/support">https://android.googlesource.com/platform/frameworks/support</a>&#xA;</item>
+        <item>Copyright 2014 The Android Open Source Project&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_eventbus">
+        <item><b><i>EventBus</i></b>&#xA;</item>
+        <item><a href="https://github.com/greenrobot/EventBus">https://github.com/greenrobot/EventBus</a>&#xA;</item>
+        <item>Copyright 2012&#8211;2016 Markus Junginger, greenrobot&#xA;</item>
+        <item>(http://greenrobot.org)&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_firebase_auth">
+        <item><b><i>Google Firebase Authentication</i></b>&#xA;</item>
+        <item><a href="https://firebase.google.com/docs/auth">https://firebase.google.com/docs/auth</a>&#xA;</item>
+        <item>Copyright 2016 Google Inc.&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_firebase_database">
+        <item><b><i>Google Firebase Database</i></b>&#xA;</item>
+        <item><a href="https://firebase.google.com/docs/database">https://firebase.google.com/docs/database</a>&#xA;</item>
+        <item>Copyright 2016 Google Inc.&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_ted_permission">
+        <item><b><i>Ted Permission</i></b>&#xA;</item>
+        <item><a href="https://github.com/ParkSangGwon/TedPermission">https://github.com/ParkSangGwon/TedPermission</a>&#xA;</item>
+        <item>Copyright 2017 Ted Park&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_sweet_dialog">
+        <item><b><i>Sweet Alert Dialog</i></b>&#xA;</item>
+        <item><a href="https://github.com/F0RIS/sweet-alert-dialog">https://github.com/F0RIS/sweet-alert-dialog</a>&#xA;</item>
+        <item>Copyright 2014 Pedant&#xA;</item>
+        <item>(http://pedant.cn)&#xA;</item>
+        <item>MIT License&#xA;</item>
+    </string-array>
+
+    <string-array name="license_circle_image">
+        <item><b><i>Circle ImageView</i></b>&#xA;</item>
+        <item><a href="https://github.com/hdodenhof/CircleImageView">https://github.com/hdodenhof/CircleImageView</a>&#xA;</item>
+        <item>Copyright 2014&#8211;2018 Henning Dodenhof&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_swipe_reveal">
+        <item><b><i>Swipe Reveal Layout</i></b>&#xA;</item>
+        <item><a href="https://github.com/chthai64/SwipeRevealLayout">https://github.com/chthai64/SwipeRevealLayout</a>&#xA;</item>
+        <item>Copyright 2016 Chau Thai&#xA;</item>
+        <item>MIT License&#xA;</item>
+    </string-array>
+
+    <string-array name="license_dialog_plus">
+    <item><b><i>Dialog Plus</i></b>&#xA;</item>
+    <item><a href="https://github.com/orhanobut/dialogplus">https://github.com/orhanobut/dialogplus</a>&#xA;</item>
+    <item>Copyright 2016 Orhan Obut&#xA;</item>
+    <item>Apache License 2.0&#xA;</item>
+</string-array>
+
+    <string-array name="license_google_login">
+        <item><b><i>Google Play Services API : Google Account Login</i></b>&#xA;</item>
+        <item><a href="https://developers.google.com/android/guides/setup">https://developers.google.com/android/guides/setup</a>&#xA;</item>
+        <item>Copyright 2012 Google Inc.&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string-array name="license_kakao_usermgmt">
+        <item><b><i>Kakao Open SDK : User Management</i></b>&#xA;</item>
+        <item><a href="https://developers.kakao.com/docs/android-reference/com/kakao/usermgmt/package-summary.html">https://developers.kakao.com/docs/android-reference/com/kakao/usermgmt/package-summary.html</a>&#xA;</item>
+        <item>Copyright Kakao Corp&#xA;</item>
+        <item>Apache License 2.0&#xA;</item>
+    </string-array>
+
+    <string name="license">
+        <![CDATA[
+        <html>
+<body><b>MPAndroidChart</b><br>
+<blockquote><a href=”https://github.com/PhilJay/MPAndroidChart”>https://github.com/PhilJay/MPAndroidChart</a><br>
+    Copyright 2018 Philipp Jahoda<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Android - platform - frameworks - volley</b><br>
+<blockquote><a href=”https://android.googlesource.com/platform/frameworks/volley”>https://android.googlesource.com/platform/frameworks/volley</a>
+    <br>
+    Copyright 2011 The Android Open Source Project<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Android - platform - frameworks - support</b><br>
+<blockquote><a href=”https://android.googlesource.com/platform/frameworks/support”>https://android.googlesource.com/platform/frameworks/support</a>
+    <br>
+    Copyright 2014 The Android Open Source Project<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>EventBus</b><br>
+<blockquote><a href=”https://github.com/greenrobot/EventBus”>https://github.com/greenrobot/EventBus</a><br>
+    Copyright 2012-2016 Markus Junginger, greenrobot<br>
+    (http://greenrobot.org)<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Google Firebase Authentication</b><br>
+<blockquote><a href=”https://firebase.google.com/docs/auth”>https://firebase.google.com/docs/auth</a><br>
+    Copyright 2016 Google Inc.<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Google Firebase Database</b><br/>
+<blockquote><a href=”https://firebase.google.com/docs/database”>https://firebase.google.com/docs/database</a><br/>Copyright
+    2016 Google Inc.<br/>Apache License 2.0
+</blockquote>
+<br>
+
+<b>Ted Permission</b><br/>
+<blockquote><a
+        href=”https://github.com/ParkSangGwon/TedPermission”>https://github.com/ParkSangGwon/TedPermission</a><br/>
+    Copyright 2017 Ted Park<br/>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Sweet Alert Dialog</b><br>
+<blockquote><a href=”https://github.com/F0RIS/sweet-alert-dialog”>https://github.com/F0RIS/sweet-alert-dialog</a><br>
+    Copyright 2014 Pedant<br>
+    (http://pedant.cn)<br>
+    MIT License
+</blockquote>
+<br>
+
+<b>Circle ImageView</b><br>
+<blockquote><a href=”https://github.com/hdodenhof/CircleImageView”>https://github.com/hdodenhof/CircleImageView</a><br>
+    Copyright 2014-2018 Henning Dodenhof<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Swipe Reveal Layout</b><br>
+<blockquote><a
+        href=”https://github.com/chthai64/SwipeRevealLayout”>https://github.com/chthai64/SwipeRevealLayout</a><br>
+    Copyright 2016 Chau Thai<br>
+    MIT License
+</blockquote>
+<br>
+
+<b>Dialog Plus</b><br>
+<blockquote><a href=”https://github.com/orhanobut/dialogplus”>https://github.com/orhanobut/dialogplus</a><br>
+    Copyright 2016 Orhan Obut<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<b>Google Play Services API : Google Account Login</b><br>
+<blockquote><a href=”https://developers.google.com/android/guides/setup”>https://developers.google.com/android/guides/setup</a><br>
+    Copyright 2012 Google Inc.<br>
+    Apache License 2.0
+</blockquote>
+<br>
+
+<hr/>
+
+<p>
+<h3>Apache License 2.0</h3><br>
+Apache License<br>
+Version 2.0, January 2004<br>
+http://www.apache.org/licenses/<br>
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION<br><br>
+1. Definitions.<br><br>
+"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9
+of this document.<br><br>
+"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the
+License.<br><br>
+"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are
+under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or
+indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of
+fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.<br><br>
+"You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.<br><br>
+"Source" form shall mean the preferred form for making modifications, including but not limited to software source code,
+documentation source, and configuration files.<br><br>
+"Object" form shall mean any form resulting from mechanical transformation or translation of a Source form, including
+but not limited to compiled object code, generated documentation, and conversions to other media types.<br><br>
+"Work" shall mean the work of authorship, whether in Source or Object form, made available under the License, as
+indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix
+below).<br><br>
+"Derivative Works" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work
+and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an
+original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain
+separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.<br><br>
+"Contribution" shall mean any work of authorship, including the original version of the Work and any modifications or
+additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the
+Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner.
+For the purposes of this definition, "submitted" means any form of electronic, verbal, or written communication sent to
+the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code
+control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of
+discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in
+writing by the copyright owner as "Not a Contribution."<br><br>
+"Contributor" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received
+by Licensor and subsequently incorporated within the Work.<br><br>
+2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to
+You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare
+Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works
+in Source or Object form.<br><br>
+3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a
+perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent
+license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license
+applies only to those patent claims licensable by such Contributor that are necessarily infringed by their
+Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was
+submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit)
+alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent
+infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date
+such litigation is filed.<br><br>
+4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with
+or without modifications, and in Source or Object form, provided that You meet the following conditions:<br><br>
+You must give any other recipients of the Work or Derivative Works a copy of this License; and<br><br>
+You must cause any modified files to carry prominent notices stating that You changed the files; and<br>
+You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and
+attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the
+Derivative Works; and<br>
+If the Work includes a "NOTICE" text file as part of its distribution, then any Derivative Works that You distribute
+must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that
+do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file
+distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the
+Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices
+normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You
+may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the
+NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the
+License.<br><br>
+You may add Your own copyright statement to Your modifications and may provide additional or different license terms and
+conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole,
+provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this
+License.<br>
+5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for
+inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any
+additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any
+separate license agreement you may have executed with Licensor regarding such Contributions.<br><br>
+6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product
+names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and
+reproducing the content of the NOTICE file.<br><br>
+7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and
+each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT,
+MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of
+using or redistributing the Work and assume any risks associated with Your exercise of permissions under this
+License.<br><br>
+8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or
+otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing,
+shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or
+consequential damages of any character arising as a result of this License or out of the use or inability to use the
+Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any
+and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such
+damages.<br><br>
+9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose
+to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights
+consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your
+sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each
+Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your
+accepting any such warranty or additional liability.<br><br>
+END OF TERMS AND CONDITIONS</p>
+<hr/>
+<p>
+<h3>MIT License</h3>Copyright
+&lt;YEAR&gt;
+&lt;COPYRIGHT holder&gt;<br><br>Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software
+and
+associated documentation files (the "Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:<br><br>The
+above copyright notice and this permission notice shall be included in all copies or substantial portions of the
+Software.<br><br>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.<br></p>
+</body>
+</html>
+        ]]>
+    </string>
+</resources>

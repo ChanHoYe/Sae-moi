@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':SweetAlertDialog', ':SweetAleartDialog', ':SweetAlertDialog-1.3', ':mylibrary', ':sweetalertdialog'
+project(':SweetAlertDialog').projectDir = new File('app/libs/SweetAlertDialog')

@@ -1,31 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/category_won"
-        android:layout_width="wrap_content"
+    <data>
+
+        <variable
+            name="cate"
+            type="com.three_eung.saemoi.bind.BudgetBind" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:text="원"
-        android:textSize="20sp" />
+        android:background="@color/pink_background">
 
-    <EditText
-        android:id="@+id/category_budget"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_toLeftOf="@+id/category_won"
-        android:hint="0"
-        android:inputType="numberDecimal"
-        android:textSize="20sp" />
+        <ImageView
+            android:id="@+id/item_cate_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:scaleType="fitXY"
+            android:src="@{cate.id}" />
 
-    <TextView
-        android:id="@+id/category_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignTop="@id/category_budget"
-        android:textSize="30sp" />
+        <TextView
+            android:id="@+id/item_cate_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/item_cate_image"
+            android:text="@{cate.title}"
+            android:textSize="25sp" />
 
-</RelativeLayout>
+        <TextView
+            android:id="@+id/won"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:gravity="center_vertical"
+            android:text="원"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:id="@+id/item_cate_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/won"
+            android:gravity="center"
+            android:hint="0"
+            android:inputType="numberDecimal"
+            android:text="@{cate.value}"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+</layout>

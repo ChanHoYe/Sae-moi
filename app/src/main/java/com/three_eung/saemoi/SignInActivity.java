@@ -34,6 +34,7 @@ import com.kakao.auth.ISessionCallback;
 import com.kakao.auth.Session;
 import com.kakao.util.exception.KakaoException;
 import com.three_eung.saemoi.databinding.ActivitySignBinding;
+import com.three_eung.saemoi.dialogs.LoadingDialog;
 
 import org.json.JSONObject;
 
@@ -61,7 +62,6 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onCreate(@NonNull Bundle savedInstanceState) {
-        setTheme(R.style.SignTheme);
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_sign);
 

@@ -2,6 +2,7 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/pink_background"
     android:stretchColumns="*">
 
     <TableRow>
@@ -9,10 +10,10 @@
         <TextView
             android:id="@+id/saving_list_title"
             android:layout_span="2"
+            android:drawableStart="@drawable/pink_cactus"
             android:gravity="center"
             android:padding="20dp"
-            android:text="title"
-            android:textSize="50dp" />
+            android:textSize="30sp" />
     </TableRow>
 
     <TableRow>
@@ -23,9 +24,8 @@
 
         <TextView
             android:id="@+id/saving_list_total"
-            android:gravity="right"
-            android:padding="10dp"
-            android:text="육마넌" />
+            android:gravity="end"
+            android:padding="10dp" />
     </TableRow>
 
     <TableRow>
@@ -36,9 +36,8 @@
 
         <TextView
             android:id="@+id/saving_list_unit"
-            android:gravity="right"
-            android:padding="10dp"
-            android:text="육마넌" />
+            android:gravity="end"
+            android:padding="10dp" />
     </TableRow>
 
     <TableRow>
@@ -49,9 +48,8 @@
 
         <TextView
             android:id="@+id/saving_list_count"
-            android:gravity="right"
-            android:padding="10dp"
-            android:text="육마넌" />
+            android:gravity="end"
+            android:padding="10dp" />
     </TableRow>
 
     <TableRow>
@@ -62,9 +60,8 @@
 
         <TextView
             android:id="@+id/saving_list_start"
-            android:gravity="right"
-            android:padding="10dp"
-            android:text="육마넌" />
+            android:gravity="end"
+            android:padding="10dp" />
     </TableRow>
 
     <TableRow>
@@ -75,9 +72,8 @@
 
         <TextView
             android:id="@+id/saving_list_duration"
-            android:gravity="right"
-            android:padding="10dp"
-            android:text="육마넌" />
+            android:gravity="end"
+            android:padding="10dp" />
     </TableRow>
 
     <RelativeLayout
@@ -91,7 +87,7 @@
             android:id="@+id/daylist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="3dip"
+            android:padding="3dp"
             android:text="절약을 지킨날" />
 
         <TextView
@@ -121,7 +117,7 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:src="@drawable/loading" />
+            android:src="@drawable/pink_bear" />
 
     </RelativeLayout>
 

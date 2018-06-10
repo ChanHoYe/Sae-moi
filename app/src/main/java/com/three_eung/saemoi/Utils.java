@@ -17,17 +17,26 @@ public class Utils {
     private static SimpleDateFormat ym = new SimpleDateFormat("yyyy년 MM월", Locale.KOREA);
     private static SimpleDateFormat ymd = new SimpleDateFormat("yyyy년 MM월 dd일", Locale.KOREA);
     private static DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss", Locale.KOREA);
-    private static DecimalFormat df = new DecimalFormat("#,###");
+    private static DecimalFormat currencyFormat = new DecimalFormat("#,###");
 
-    public static String toCurrencyFormat(int value) {
-        return df.format(value);
+    public static String toCurrencyFormat(long value) {
+        return currencyFormat.format(value);
     }
 
-    public static String toCurrencyString(int value) {
+    public static String toCurrencyString(long value) {
         StringBuffer buffer = new StringBuffer();
-        buffer.append(df.format(value));
+        buffer.append(currencyFormat.format(value));
         buffer.append("원");
         return buffer.toString();
+    }
+
+    public static long fromCurrencyFormat(String value) {
+        try {
+            return (long) currencyFormat.parse(value);
+        } catch (ParseException e) {
+        }
+
+        return 0;
     }
 
     public static String toYearMonth(Date date) {
@@ -50,7 +59,8 @@ public class Utils {
         Date toParse = new Date();
         try {
             return dateFormat.parse(date);
-        } catch(ParseException e) {}
+        } catch (ParseException e) {
+        }
 
         return null;
     }
@@ -67,11 +77,28 @@ public class Utils {
         return px;
     }
 
-    public static int getCategoryDrawable(int id) {
+    public static int getSmallCategoryDrawable(int id) {
         Class<?> drawbleClass = R.drawable.class;
         Field field = null;
         int resId = 0;
-        StringBuffer buffer = new StringBuffer("cate_");
+        StringBuffer buffer = new StringBuffer("small_cate_");
+        buffer.append(id);
+
+        try {
+            field = drawbleClass.getField(buffer.toString());
+            resId = field.getInt(null);
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            Log.e("Utils", "getCategoryDrawable: Error");
+        }
+
+        return resId;
+    }
+
+    public static int getLargeCategoryDrawable(int id) {
+        Class<?> drawbleClass = R.drawable.class;
+        Field field = null;
+        int resId = 0;
+        StringBuffer buffer = new StringBuffer("large_cate_");
         buffer.append(id);
 
         try {

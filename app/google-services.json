@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "21642410988-se8gdqdb7gn0lajc59uingdtukaf6gir.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.three_eung.saemoi",
+            "certificate_hash": "ebb7371a6e486060b6d2203bed050e3948e7dca3"
+          }
+        },
+        {
           "client_id": "21642410988-u9da6rtkusl2q46fo1ao3r1fgsojd81a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
@@ -45,6 +53,10 @@
             "package_name": "com.three_eung.saemoi",
             "certificate_hash": "7af3a9e3cbca827c222d1079d8a68d085dacde80"
           }
+        },
+        {
+          "client_id": "21642410988-lk7lg7jakhvrs6ta90lp9mr9vslibtqm.apps.googleusercontent.com",
+          "client_type": 3
         },
         {
           "client_id": "21642410988-lk7lg7jakhvrs6ta90lp9mr9vslibtqm.apps.googleusercontent.com",
